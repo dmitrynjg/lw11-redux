@@ -1,0 +1,14 @@
+.table-row {
+    display: flex;
+    &-td {
+      width: 100%;
+      text-align: center;
+      padding: .75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+    }
+    &_selected &-td {
+      background: #002bff12;
+      transition: 0.2s;
+    }
+}
